@@ -4,5 +4,5 @@ for i in range(2, 101):
         if i % j == 0:
             is_prime = False
             break
-    if is_prime:
+    if is_prime:  #is_primeがTrueの時素数
       print(i)
